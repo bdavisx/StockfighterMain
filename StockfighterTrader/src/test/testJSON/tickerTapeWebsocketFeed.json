@@ -1,0 +1,832 @@
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8281,
+    "ask": 8445,
+    "bidSize": 13082,
+    "askSize": 11863,
+    "bidDepth": 39370,
+    "askDepth": 35645,
+    "last": 8403,
+    "lastSize": 144,
+    "lastTrade": "2015-12-17T23:01:07.101720366Z",
+    "quoteTime": "2015-12-17T23:01:07.102620854Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8281,
+    "ask": 8445,
+    "bidSize": 13082,
+    "askSize": 11863,
+    "bidDepth": 39370,
+    "askDepth": 35645,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.103731927Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8281,
+    "ask": 8445,
+    "bidSize": 13082,
+    "askSize": 11863,
+    "bidDepth": 39370,
+    "askDepth": 35645,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.104042089Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8281,
+    "ask": 8487,
+    "bidSize": 13082,
+    "askSize": 11891,
+    "bidDepth": 39370,
+    "askDepth": 23782,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.132199678Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8281,
+    "ask": 8529,
+    "bidSize": 13082,
+    "askSize": 11891,
+    "bidDepth": 39370,
+    "askDepth": 11891,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.133298147Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8281,
+    "bidSize": 13082,
+    "askSize": 0,
+    "bidDepth": 39370,
+    "askDepth": 0,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.134404498Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8240,
+    "bidSize": 13108,
+    "askSize": 0,
+    "bidDepth": 26288,
+    "askDepth": 0,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.135381815Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8231,
+    "bidSize": 72,
+    "askSize": 0,
+    "bidDepth": 13180,
+    "askDepth": 0,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.136294349Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8231,
+    "bidSize": 72,
+    "askSize": 0,
+    "bidDepth": 72,
+    "askDepth": 0,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.13739352Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8231,
+    "ask": 8447,
+    "bidSize": 72,
+    "askSize": 11894,
+    "bidDepth": 72,
+    "askDepth": 11894,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.138533683Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8231,
+    "ask": 8406,
+    "bidSize": 72,
+    "askSize": 11894,
+    "bidDepth": 72,
+    "askDepth": 23788,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.140842798Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8231,
+    "ask": 8365,
+    "bidSize": 72,
+    "askSize": 11894,
+    "bidDepth": 72,
+    "askDepth": 35682,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.142761376Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8231,
+    "ask": 8365,
+    "bidSize": 72,
+    "askSize": 11894,
+    "bidDepth": 13177,
+    "askDepth": 35682,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.144278198Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8242,
+    "ask": 8365,
+    "bidSize": 13105,
+    "askSize": 11894,
+    "bidDepth": 26282,
+    "askDepth": 35682,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.145959848Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 13105,
+    "askSize": 11894,
+    "bidDepth": 39387,
+    "askDepth": 35682,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.147778987Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 13105,
+    "askSize": 11689,
+    "bidDepth": 39387,
+    "askDepth": 35477,
+    "last": 8281,
+    "lastSize": 26,
+    "lastTrade": "2015-12-17T23:01:07.101721929Z",
+    "quoteTime": "2015-12-17T23:01:07.151513271Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 13105,
+    "askSize": 11689,
+    "bidDepth": 39387,
+    "askDepth": 35477,
+    "last": 8365,
+    "lastSize": 205,
+    "lastTrade": "2015-12-17T23:01:07.150761009Z",
+    "quoteTime": "2015-12-17T23:01:07.151298293Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 13025,
+    "askSize": 11689,
+    "bidDepth": 39307,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 80,
+    "lastTrade": "2015-12-17T23:01:07.154795647Z",
+    "quoteTime": "2015-12-17T23:01:07.155156727Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 13025,
+    "askSize": 11689,
+    "bidDepth": 39307,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 80,
+    "lastTrade": "2015-12-17T23:01:07.154795647Z",
+    "quoteTime": "2015-12-17T23:01:07.155438066Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 12877,
+    "askSize": 11689,
+    "bidDepth": 39159,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 148,
+    "lastTrade": "2015-12-17T23:01:07.158907315Z",
+    "quoteTime": "2015-12-17T23:01:07.159094878Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 12877,
+    "askSize": 11689,
+    "bidDepth": 39159,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 148,
+    "lastTrade": "2015-12-17T23:01:07.158907315Z",
+    "quoteTime": "2015-12-17T23:01:07.15933577Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 12761,
+    "askSize": 11689,
+    "bidDepth": 39043,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 116,
+    "lastTrade": "2015-12-17T23:01:07.163267892Z",
+    "quoteTime": "2015-12-17T23:01:07.163408911Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 12761,
+    "askSize": 11689,
+    "bidDepth": 39043,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 116,
+    "lastTrade": "2015-12-17T23:01:07.163267892Z",
+    "quoteTime": "2015-12-17T23:01:07.163639879Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 12761,
+    "askSize": 11689,
+    "bidDepth": 38971,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 116,
+    "lastTrade": "2015-12-17T23:01:07.163267892Z",
+    "quoteTime": "2015-12-17T23:01:07.169039168Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 12646,
+    "askSize": 11689,
+    "bidDepth": 38856,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 115,
+    "lastTrade": "2015-12-17T23:01:07.170227371Z",
+    "quoteTime": "2015-12-17T23:01:07.170351095Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 12646,
+    "askSize": 11689,
+    "bidDepth": 38856,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 115,
+    "lastTrade": "2015-12-17T23:01:07.170227371Z",
+    "quoteTime": "2015-12-17T23:01:07.170566296Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 12503,
+    "askSize": 11689,
+    "bidDepth": 38713,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.173603151Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8365,
+    "bidSize": 12503,
+    "askSize": 11689,
+    "bidDepth": 38713,
+    "askDepth": 35477,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.173900622Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8406,
+    "bidSize": 12503,
+    "askSize": 11894,
+    "bidDepth": 38713,
+    "askDepth": 23788,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.195421921Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8447,
+    "bidSize": 12503,
+    "askSize": 11894,
+    "bidDepth": 38713,
+    "askDepth": 11894,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.196888799Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "bidSize": 12503,
+    "askSize": 0,
+    "bidDepth": 38713,
+    "askDepth": 0,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.197899554Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8242,
+    "bidSize": 13105,
+    "askSize": 0,
+    "bidDepth": 26210,
+    "askDepth": 0,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.199261077Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8201,
+    "bidSize": 13105,
+    "askSize": 0,
+    "bidDepth": 13105,
+    "askDepth": 0,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.200484993Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bidSize": 0,
+    "askSize": 0,
+    "bidDepth": 0,
+    "askDepth": 0,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.201954019Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "ask": 8447,
+    "bidSize": 0,
+    "askSize": 40,
+    "bidDepth": 0,
+    "askDepth": 40,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.203809812Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "ask": 8406,
+    "bidSize": 0,
+    "askSize": 40,
+    "bidDepth": 0,
+    "askDepth": 80,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.205949748Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "ask": 8365,
+    "bidSize": 0,
+    "askSize": 40,
+    "bidDepth": 0,
+    "askDepth": 120,
+    "last": 8283,
+    "lastSize": 143,
+    "lastTrade": "2015-12-17T23:01:07.173475455Z",
+    "quoteTime": "2015-12-17T23:01:07.208356943Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "ask": 8447,
+    "bidSize": 0,
+    "askSize": 12,
+    "bidDepth": 0,
+    "askDepth": 12,
+    "last": 8365,
+    "lastSize": 40,
+    "lastTrade": "2015-12-17T23:01:07.210894908Z",
+    "quoteTime": "2015-12-17T23:01:07.211030932Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "ask": 8447,
+    "bidSize": 0,
+    "askSize": 12,
+    "bidDepth": 0,
+    "askDepth": 12,
+    "last": 8406,
+    "lastSize": 40,
+    "lastTrade": "2015-12-17T23:01:07.210896606Z",
+    "quoteTime": "2015-12-17T23:01:07.211370585Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "ask": 8447,
+    "bidSize": 0,
+    "askSize": 12,
+    "bidDepth": 0,
+    "askDepth": 12,
+    "last": 8447,
+    "lastSize": 28,
+    "lastTrade": "2015-12-17T23:01:07.210898117Z",
+    "quoteTime": "2015-12-17T23:01:07.212131431Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "ask": 8447,
+    "bidSize": 0,
+    "askSize": 12,
+    "bidDepth": 0,
+    "askDepth": 12,
+    "last": 8447,
+    "lastSize": 28,
+    "lastTrade": "2015-12-17T23:01:07.210898117Z",
+    "quoteTime": "2015-12-17T23:01:07.211840603Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8522,
+    "bidSize": 64,
+    "askSize": 0,
+    "bidDepth": 64,
+    "askDepth": 0,
+    "last": 8447,
+    "lastSize": 12,
+    "lastTrade": "2015-12-17T23:01:07.214666412Z",
+    "quoteTime": "2015-12-17T23:01:07.214846635Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8522,
+    "bidSize": 64,
+    "askSize": 0,
+    "bidDepth": 64,
+    "askDepth": 0,
+    "last": 8447,
+    "lastSize": 12,
+    "lastTrade": "2015-12-17T23:01:07.214666412Z",
+    "quoteTime": "2015-12-17T23:01:07.215012031Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8522,
+    "ask": 8648,
+    "bidSize": 64,
+    "askSize": 11922,
+    "bidDepth": 64,
+    "askDepth": 11922,
+    "last": 8447,
+    "lastSize": 12,
+    "lastTrade": "2015-12-17T23:01:07.214666412Z",
+    "quoteTime": "2015-12-17T23:01:07.22891251Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8522,
+    "ask": 8606,
+    "bidSize": 64,
+    "askSize": 11922,
+    "bidDepth": 64,
+    "askDepth": 23844,
+    "last": 8447,
+    "lastSize": 12,
+    "lastTrade": "2015-12-17T23:01:07.214666412Z",
+    "quoteTime": "2015-12-17T23:01:07.230474139Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8522,
+    "ask": 8564,
+    "bidSize": 64,
+    "askSize": 11922,
+    "bidDepth": 64,
+    "askDepth": 35766,
+    "last": 8447,
+    "lastSize": 12,
+    "lastTrade": "2015-12-17T23:01:07.214666412Z",
+    "quoteTime": "2015-12-17T23:01:07.232756586Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8522,
+    "ask": 8564,
+    "bidSize": 64,
+    "askSize": 11922,
+    "bidDepth": 13141,
+    "askDepth": 35766,
+    "last": 8447,
+    "lastSize": 12,
+    "lastTrade": "2015-12-17T23:01:07.214666412Z",
+    "quoteTime": "2015-12-17T23:01:07.23538468Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8522,
+    "ask": 8564,
+    "bidSize": 64,
+    "askSize": 11922,
+    "bidDepth": 26218,
+    "askDepth": 35766,
+    "last": 8447,
+    "lastSize": 12,
+    "lastTrade": "2015-12-17T23:01:07.214666412Z",
+    "quoteTime": "2015-12-17T23:01:07.238215532Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8522,
+    "ask": 8564,
+    "bidSize": 64,
+    "askSize": 11922,
+    "bidDepth": 39295,
+    "askDepth": 35766,
+    "last": 8447,
+    "lastSize": 12,
+    "lastTrade": "2015-12-17T23:01:07.214666412Z",
+    "quoteTime": "2015-12-17T23:01:07.240757287Z"
+  }
+}
+{
+  "ok": true,
+  "quote": {
+    "symbol": "DYM",
+    "venue": "EVRBEX",
+    "bid": 8283,
+    "ask": 8564,
+    "bidSize": 13077,
+    "askSize": 11922,
+    "bidDepth": 39231,
+    "askDepth": 35766,
+    "last": 8447,
+    "lastSize": 12,
+    "lastTrade": "2015-12-17T23:01:07.214666412Z",
+    "quoteTime": "2015-12-17T23:01:07.243165177Z"
+  }
+}
