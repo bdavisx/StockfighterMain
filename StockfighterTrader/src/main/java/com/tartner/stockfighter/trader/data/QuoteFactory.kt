@@ -13,8 +13,7 @@ class QuoteFactory(private val moneyFactory: MoneyFactory) {
             moneyFactory.from(apiQuote.askMinimumPriceSellersWillingToReceive),
             apiQuote.aggregateSizeOfAllOrdersAtAskPrice, apiQuote.aggregateSizeOfAllAsksAtAnyPrice,
             moneyFactory.from(apiQuote.priceOfLastTrade), apiQuote.quantityOfLastTrade,
-            LocalDateTime.parse(apiQuote.lastTradeTimestamp), LocalDateTime.parse(apiQuote.quoteTimestamp)
-        );
+            apiQuote.lastTradeTimestamp, apiQuote.quoteTimestamp);
     }
 }
 

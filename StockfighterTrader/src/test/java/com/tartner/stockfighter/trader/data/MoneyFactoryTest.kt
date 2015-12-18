@@ -15,4 +15,11 @@ class MoneyFactoryTest {
         val money = factory.from(1234);
         assertThat(money, equalTo(Money.of(CurrencyUnit.USD, BigDecimal("12.34"))))
     }
+
+    @Test
+    fun fromApiMoney_LargeNumber_ReturnsCorrectAmount() {
+        val factory = MoneyFactory();
+        val money = factory.from(1234567890);
+        assertThat(money, equalTo(Money.of(CurrencyUnit.USD, BigDecimal("12345678.90"))))
+    }
 }

@@ -1,6 +1,7 @@
 package com.tartner.stockfighter.trader.apis.main
 
 import com.fasterxml.jackson.annotation.JsonProperty
+import java.time.LocalDateTime
 
 class QuoteTO(
     var symbol: String,
@@ -25,9 +26,9 @@ class QuoteTO(
     @JsonProperty("lastSize")
     var quantityOfLastTrade: Int,
     @JsonProperty("lastTrade")
-    var lastTradeTimestamp: String,
+    var lastTradeTimestamp: LocalDateTime,
 
     @JsonProperty("quoteTime")
-    var quoteTimestamp: String
+    var quoteTimestamp: LocalDateTime
 ) {
 }
