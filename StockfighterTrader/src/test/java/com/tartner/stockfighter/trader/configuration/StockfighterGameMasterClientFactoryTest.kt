@@ -17,7 +17,8 @@ class StockfighterGameMasterClientFactoryTest {
 
         val startData = client.startLevel("first_steps")
 
-
+        client.endLevel(startData.instanceId)
     }
 
 }
+
