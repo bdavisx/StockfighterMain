@@ -1,10 +1,10 @@
 package com.tartner.stockfighter.trader.data
 
 import org.joda.money.Money
-import java.time.LocalDateTime
+import java.time.ZonedDateTime
 
 data class Quote(
-    val symbol: Symbol,
+    val stockSymbol: StockSymbol,
     val venue: Venue,
 
     val bidMaximumPriceBuyersWillingToPay: Money,
@@ -19,10 +19,8 @@ data class Quote(
     val priceOfLastTrade: Money,
     val quantityOfLastTrade: Int,
 
-    val lastTradeTimestamp: LocalDateTime,
-    val quoteTimestamp: LocalDateTime
+    val lastTradeTimestamp: ZonedDateTime,
+    val quoteTimestamp: ZonedDateTime
 ) {
 }
 
-data class Symbol(val symbolText: String)
-data class Venue(val venueText: String)

@@ -1,12 +1,11 @@
 package com.tartner.stockfighter.trader.data
 
-import com.tartner.stockfighter.trader.apis.main.QuoteTO
-import java.time.LocalDateTime
+import com.tartner.stockfighter.trader.apis.main.trader.QuoteTO
 
 class QuoteFactory(private val moneyFactory: MoneyFactory) {
     fun convertFrom(apiQuote: QuoteTO): Quote {
         return Quote(
-            Symbol(apiQuote.symbol),
+            StockSymbol(apiQuote.symbol),
             Venue(apiQuote.venue),
             moneyFactory.from(apiQuote.bidMaximumPriceBuyersWillingToPay),
             apiQuote.aggregateSizeOfAllOrdersAtBidPrice, apiQuote.aggregateSizeOfAllBidsAtAnyPrice,

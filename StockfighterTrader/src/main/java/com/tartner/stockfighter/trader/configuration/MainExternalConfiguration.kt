@@ -1,10 +1,10 @@
-package com.tartner.stockfighter.trader
+package com.tartner.stockfighter.trader.configuration
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import io.dropwizard.Configuration
 import org.hibernate.validator.constraints.NotEmpty
 
-class MainConfiguration : Configuration() {
+class MainExternalConfiguration : Configuration() {
     @NotEmpty @JsonProperty
     var template: String? = null
 
