@@ -9,6 +9,7 @@ class LevelStartTO() {
     var ok: Boolean = false
     var secondsPerTradingDay: Int = 0
     var tickers: List<String> = ArrayList<String>()
+    var venues: List<String> = ArrayList<String>()
 
     var error: String = ""
 }
