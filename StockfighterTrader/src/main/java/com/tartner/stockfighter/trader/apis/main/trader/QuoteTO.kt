@@ -28,6 +28,7 @@ class QuoteTO() {
 
     var symbol: String = ""
     var venue: String = ""
+    var ok: Boolean = false;
 
     @JsonProperty("bid")
     var bidMaximumPriceBuyersWillingToPay: Int = 0
