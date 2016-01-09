@@ -1,5 +1,6 @@
 package com.tartner.stockfighter.trader.configuration
 
+import com.fasterxml.jackson.databind.ObjectMapper
 import com.mashape.unirest.http.Unirest
 import com.tartner.stockfighter.trader.apis.main.gamemaster.StockfighterGameMasterUnirestClient
 import org.junit.Test
@@ -13,8 +14,10 @@ import java.math.BigDecimal
 class StockfighterGameMasterUnirestClientTest {
     @Test
     fun startLevel_Basic_StartsLevel() {
-        Unirest.setObjectMapper(UnirestToJacksonObjectMapper())
-        val client = StockfighterGameMasterUnirestClient()
+        val jacksonObjectMapper = ObjectMapper()
+
+        Unirest.setObjectMapper(UnirestToJacksonObjectMapper(jacksonObjectMapper))
+        val client = StockfighterGameMasterUnirestClient(jacksonObjectMapper, "https://www.stockfighter.io/gm")
         val startData = client.startLevel("first_steps")
         client.endLevel(startData.instanceId)
     }

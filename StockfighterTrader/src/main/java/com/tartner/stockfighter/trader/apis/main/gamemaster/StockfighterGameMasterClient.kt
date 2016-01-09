@@ -1,6 +1,5 @@
 package com.tartner.stockfighter.trader.apis.main.gamemaster
 
-import com.tartner.stockfighter.trader.apis.main.NoValuesResponseTO
 import retrofit.http.POST
 import retrofit.http.Path
 
@@ -18,6 +17,6 @@ interface StockfighterGameMasterClient {
     fun resumeLevel(@Path("instanceId") instanceId: Int): LevelStartTO
 
     @POST("/instances/{instanceId}/stop")
-    fun endLevel(@Path("instanceId") instanceId: Int): NoValuesResponseTO
+    fun endLevel(@Path("instanceId") instanceId: Int)
 }
 
