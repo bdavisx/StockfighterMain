@@ -1,24 +1,20 @@
 package com.tartner.stockfighter.trader.apis.main.trader
 
+import com.google.inject.Guice
+import com.google.inject.Inject
+import com.google.inject.Injector
 import com.tartner.stockfighter.trader.apis.main.gamemaster.StockfighterGameMasterClient
-import com.tartner.stockfighter.trader.configuration.StockfighterGameMasterClientFactory
-import com.tartner.stockfighter.trader.configuration.StockfighterTraderClientFactory
+import com.tartner.stockfighter.trader.configuration.RestClientModule
 
 fun main(arguments: Array<String> ) {
-    // TODO: move to config/di
-    val traderFactory = StockfighterTraderClientFactory()
-    val traderClient = traderFactory.createService("https://api.stockfighter.io/ob/api")
+    val injector: Injector = Guice.createInjector(RestClientModule());
 
-    val gameMasterFactory = StockfighterGameMasterClientFactory()
-    val gameMasterClient = gameMasterFactory.createService("https://www.stockfighter.io/gm",
-        "4d05754c6ab729aae1ffb3858fc14da21c385b11")
-
-    val me = Level1Solver(traderClient, gameMasterClient)
+    val me = injector.getInstance(Level1Solver::class.java)
     me.solve()
 }
 
 /** This is kind of like a connection (eg database connection), except c onnecting to stockfighter */
-class Level1Solver(
+class Level1Solver @Inject constructor(
     private val traderClient: StockfighterTraderClient,
     private val gameMasterClient: StockfighterGameMasterClient) {
 

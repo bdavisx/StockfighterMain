@@ -1,6 +1,7 @@
 package com.tartner.stockfighter.trader.apis.main.gamemaster
 
 import com.fasterxml.jackson.databind.ObjectMapper
+import com.google.inject.Inject
 import com.mashape.unirest.http.Unirest
 import com.mashape.unirest.request.HttpRequest
 import com.tartner.stockfighter.trader.apis.main.ErrorResponseTO
@@ -8,7 +9,7 @@ import com.tartner.stockfighter.trader.apis.main.StockfighterAPIException
 import com.tartner.stockfighter.trader.apis.main.UnableToCreatePostException
 
 /** This is an implementation using the Unirest library. */
-class StockfighterGameMasterUnirestClient(
+class StockfighterGameMasterUnirestClient @Inject constructor(
     private val objectMapper: ObjectMapper,
     private val baseURL: String,
     // TODO: this should be it's own class

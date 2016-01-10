@@ -14,7 +14,6 @@ class UnirestToJacksonObjectMapper(private val jacksonObjectMapper: com.fasterxm
         } catch (e: IOException) {
             throw RuntimeException(e)
         }
-
     }
 
     override fun writeValue(value: Any): String {
@@ -23,6 +22,5 @@ class UnirestToJacksonObjectMapper(private val jacksonObjectMapper: com.fasterxm
         } catch (e: JsonProcessingException) {
             throw RuntimeException(e)
         }
-
     }
 }

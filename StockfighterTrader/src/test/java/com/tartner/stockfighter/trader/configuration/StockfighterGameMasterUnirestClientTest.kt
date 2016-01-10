@@ -17,7 +17,7 @@ class StockfighterGameMasterUnirestClientTest {
 
         Unirest.setObjectMapper(UnirestToJacksonObjectMapper(jacksonObjectMapper))
         val client = StockfighterGameMasterUnirestClient(jacksonObjectMapper, "https://www.stockfighter.io/gm",
-            StockfighterTraderClientFactory.APIKey)
+            MainExternalConfiguration.APIKey)
         val startData = client.startLevel("first_steps")
         client.endLevel(startData.instanceId)
     }
@@ -31,6 +31,5 @@ class StockfighterGameMasterUnirestClientTest {
             "BadAPIKey")
         assertFailsWith(StockfighterAPIException::class.java, { client.startLevel("first_steps") } )
     }
-
 }
 
