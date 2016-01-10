@@ -8,6 +8,10 @@ import retrofit.RestAdapter
 import retrofit.converter.JacksonConverter
 
 class StockfighterTraderClientFactory() {
+    companion object {
+        public val APIKey = "4d05754c6ab729aae1ffb3858fc14da21c385b11"
+    }
+
     private val log = LoggerFactory.getLogger(StockfighterTraderClientFactory::class.java)
 
     public fun createService(url: String): StockfighterTraderClient {

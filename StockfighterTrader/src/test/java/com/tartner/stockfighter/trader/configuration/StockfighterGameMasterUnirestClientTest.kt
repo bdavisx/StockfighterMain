@@ -12,12 +12,14 @@ import org.joda.money.Money
 import java.math.BigDecimal
 
 class StockfighterGameMasterUnirestClientTest {
+
     @Test
     fun startLevel_Basic_StartsLevel() {
         val jacksonObjectMapper = ObjectMapper()
 
         Unirest.setObjectMapper(UnirestToJacksonObjectMapper(jacksonObjectMapper))
-        val client = StockfighterGameMasterUnirestClient(jacksonObjectMapper, "https://www.stockfighter.io/gm")
+        val client = StockfighterGameMasterUnirestClient(jacksonObjectMapper, "https://www.stockfighter.io/gm",
+            StockfighterTraderClientFactory.APIKey)
         val startData = client.startLevel("first_steps")
         client.endLevel(startData.instanceId)
     }
