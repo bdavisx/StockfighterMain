@@ -29,7 +29,7 @@ class StockfighterGameMasterUnirestClientTest {
         val jacksonObjectMapper = ObjectMapper()
         val errorChecker = DefaultUnirestClientErrorChecker(jacksonObjectMapper)
 
-        Unirest.setObjectMapper(UnirestToJacksonObjectMapper(jacksonObjectMapper))
+        Unirest.setObjectMapper(UnirestToJacksonObjectAdapter(jacksonObjectMapper))
         val client = StockfighterGameMasterUnirestClient(jacksonObjectMapper, "https://www.stockfighter.io/gm",
             apiKey, errorChecker)
         return client

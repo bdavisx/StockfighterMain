@@ -5,7 +5,7 @@ import com.mashape.unirest.http.ObjectMapper
 
 import java.io.IOException
 
-class UnirestToJacksonObjectMapper(private val jacksonObjectMapper: com.fasterxml.jackson.databind.ObjectMapper)
+class UnirestToJacksonObjectAdapter(private val jacksonObjectMapper: com.fasterxml.jackson.databind.ObjectMapper)
     : ObjectMapper {
 
     override fun <T> readValue(value: String, valueType: Class<T>): T {
