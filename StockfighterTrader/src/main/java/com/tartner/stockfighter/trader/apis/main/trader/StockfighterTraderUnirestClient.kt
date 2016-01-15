@@ -18,7 +18,7 @@ class StockfighterTraderUnirestClient @Inject constructor(
     private val log = LoggerFactory.getLogger(StockfighterTraderUnirestClient::class.java)
         
     override fun getQuoteForStock(venue: Venue, stock: Stock): Quote {
-        return post("/venues/{VenueText}/stocks/{StockSymbol}/orders",
+        return get("/venues/{VenueText}/stocks/{StockSymbol}/quote",
             {
                 it.routeParam("VenueText", venue.venueText)
                 it.routeParam("StockSymbol", stock.stockSymbol)

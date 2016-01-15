@@ -6,6 +6,7 @@ import com.mashape.unirest.request.HttpRequest
 import com.mashape.unirest.request.HttpRequestWithBody
 import com.tartner.stockfighter.trader.apis.main.StockfighterAPIException
 import com.tartner.stockfighter.trader.apis.main.UnableToCreateRequestException
+import org.slf4j.LoggerFactory
 
 abstract class UnirestClient(
     protected val objectMapper: ObjectMapper,
@@ -13,6 +14,8 @@ abstract class UnirestClient(
     // TODO: this should be it's own class
     protected val apiKey: String,
     protected val errorChecker: UnirestClientErrorChecker) {
+
+    private val log = LoggerFactory.getLogger(UnirestClient::class.java)
 
     // TODO: name???
     public interface UnirestClientErrorChecker {
@@ -28,6 +31,8 @@ abstract class UnirestClient(
         request.body("{}")
         val body: String? = request.asString().body
         body?.let {
+            if( log.isDebugEnabled ) { log.debug("Post return: '$it'") }
+
             errorChecker.checkResponseForError(it)
             return responseHandler(it);
         }
@@ -50,6 +55,8 @@ abstract class UnirestClient(
         init(request)
         val body: String? = request.asString().body
         body?.let {
+            if( log.isDebugEnabled ) { log.debug("Get return: '$it'") }
+
             errorChecker.checkResponseForError(it)
             return responseHandler(it);
         }
@@ -68,6 +75,6 @@ abstract class UnirestClient(
     private fun addCommonSettings(request: HttpRequest) {
         request
             .header("accept", "application/json")
-            .header("Cookie", "api_key=$apiKey")
+            .header("X-Starfighter-Authorization", apiKey)
     }
 }
