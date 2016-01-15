@@ -1,11 +1,12 @@
 package com.tartner.stockfighter.trader.data
 
+import com.google.inject.Inject
 import com.tartner.stockfighter.trader.apis.main.trader.QuoteTO
 
-class QuoteFactory(private val moneyFactory: MoneyFactory) {
+class QuoteFactory @Inject constructor(private val moneyFactory: MoneyFactory) {
     fun convertFrom(apiQuote: QuoteTO): Quote {
         return Quote(
-            StockSymbol(apiQuote.symbol),
+            Stock(apiQuote.symbol),
             Venue(apiQuote.venue),
             moneyFactory.from(apiQuote.bidMaximumPriceBuyersWillingToPay),
             apiQuote.aggregateSizeOfAllOrdersAtBidPrice, apiQuote.aggregateSizeOfAllBidsAtAnyPrice,

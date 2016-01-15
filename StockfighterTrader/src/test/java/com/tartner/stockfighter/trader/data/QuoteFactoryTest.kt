@@ -17,7 +17,7 @@ class QuoteFactoryTest {
             ZonedDateTime.parse("2015-07-13T05:38:17.33640392Z"))
         val quote = factory.convertFrom(apiQuote)
 
-        assertThat(quote.stockSymbol, equalTo(StockSymbol("FAC")))
+        assertThat(quote.stock, equalTo(Stock("FAC")))
     }
 
 

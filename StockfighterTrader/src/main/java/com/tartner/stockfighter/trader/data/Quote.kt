@@ -4,7 +4,7 @@ import org.joda.money.Money
 import java.time.ZonedDateTime
 
 data class Quote(
-    val stockSymbol: StockSymbol,
+    val stock: Stock,
     val venue: Venue,
 
     val bidMaximumPriceBuyersWillingToPay: Money,
