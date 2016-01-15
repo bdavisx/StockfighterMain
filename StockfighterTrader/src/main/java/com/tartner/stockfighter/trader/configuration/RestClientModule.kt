@@ -1,6 +1,8 @@
 package com.tartner.stockfighter.trader.configuration
 
 import com.fasterxml.jackson.databind.ObjectMapper
+import com.fasterxml.jackson.datatype.jsr310.JSR310Module
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.google.inject.AbstractModule
 import com.mashape.unirest.http.Unirest
 import com.tartner.stockfighter.trader.apis.main.gamemaster.DefaultUnirestClientErrorChecker
@@ -28,6 +30,7 @@ class RestClientModule : AbstractModule() {
 
     private fun createJacksonObjectMapper(): ObjectMapper {
         val jacksonObjectMapper = ObjectMapper()
+        jacksonObjectMapper.registerModule(JavaTimeModule())
         bind(ObjectMapper::class.java).toInstance(jacksonObjectMapper)
         return jacksonObjectMapper
     }
