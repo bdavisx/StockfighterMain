@@ -6,7 +6,7 @@ class OrderTO {
     var account: String = ""
     var venue: String = ""
     var stock: String = ""
-    var price: String = ""
+    var price: Int = 0
     var quantity: Int = 0
     var orderType: String = ""
 }

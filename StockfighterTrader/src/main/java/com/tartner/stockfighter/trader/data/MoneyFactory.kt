@@ -28,9 +28,9 @@ class MoneyFactory {
         return Money.of(currencyUnit, formattedMoney)
     }
 
-    fun moneyToAPI(money: Money) : String {
+    fun moneyToAPI(money: Money) : Int {
         val factoredMoney = money.multipliedBy(conversionFactor)
         val moneyAsInteger = factoredMoney.amountMajorInt
-        return moneyAsInteger.toString()
+        return moneyAsInteger
     }
 }
