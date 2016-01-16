@@ -33,7 +33,7 @@ class StockfighterTraderUnirestClient @Inject constructor(
     override fun buy(order: Order) {
         // TODO: factory??? yes - we'll be creating OrderTO's all over the place
         val orderTO = orderFactory.from(order)
-        post("/venues/{VenueText}/stocks/{StockSymbol}/orders",
+        post("/venues/{VenueText}/stocks/{StockSymbol}/orders", orderTO,
             {
                 // TODO: these are the same as above method
                 // TODO: probably should have a RouteParameters parameter to post call

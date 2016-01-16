@@ -23,9 +23,9 @@ abstract class UnirestClient(
     }
 
     // TODO: abstract the duplicate code out of these
-    protected fun <T> post(methodURL: String, payload: Object, init: (request: HttpRequest) -> Unit,
-        responseHandler: (responseAsText: String) -> T)
-        : T {
+    protected fun <TPayload, TResponse> post(methodURL: String, payload: TPayload,
+        init: (request: HttpRequest) -> Unit, responseHandler: (responseAsText: String) -> TResponse)
+        : TResponse {
         val request: HttpRequestWithBody = createPost(methodURL)
         init(request)
         request.body(payload)
