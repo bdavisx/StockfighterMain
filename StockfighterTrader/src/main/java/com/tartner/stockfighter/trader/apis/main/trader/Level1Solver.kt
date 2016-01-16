@@ -1,7 +1,7 @@
 package com.tartner.stockfighter.trader.apis.main.trader
 
 import com.google.inject.Guice
-import com.google.inject.Inject
+import javax.inject.Inject
 import com.google.inject.Injector
 import com.tartner.stockfighter.trader.apis.main.gamemaster.StockfighterGameMasterClient
 import com.tartner.stockfighter.trader.configuration.RestClientModule
@@ -32,7 +32,8 @@ class Level1Solver @Inject constructor(
         val quote: Quote = traderClient.getQuoteForStock(venue, stock)
         val askPrice: Money = quote.askMinimumPriceSellersWillingToReceive
 
-        traderClient.buy(account, venue, stock, askPrice, 1, OrderType.Limit)
+        val order = Order(account, venue, stock, askPrice, 1, OrderType.Limit)
+        traderClient.buy(order)
 
         gameMasterClient.endLevel(startData.instanceId)
     }

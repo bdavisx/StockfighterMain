@@ -23,6 +23,22 @@ abstract class UnirestClient(
     }
 
     // TODO: abstract the duplicate code out of these
+    protected fun <T> post(methodURL: String, payload: Object, init: (request: HttpRequest) -> Unit,
+        responseHandler: (responseAsText: String) -> T)
+        : T {
+        val request: HttpRequestWithBody = createPost(methodURL)
+        init(request)
+        request.body(payload)
+        val body: String? = request.asString().body
+        body?.let {
+            if( log.isDebugEnabled ) { log.debug("Post return: '$it'") }
+
+            errorChecker.checkResponseForError(it)
+            return responseHandler(it);
+        }
+        throw StockfighterAPIException("Could not parse the response.")
+    }
+
     protected fun <T> post(methodURL: String, init: (request: HttpRequest) -> Unit,
         responseHandler: (responseAsText: String) -> T)
         : T {

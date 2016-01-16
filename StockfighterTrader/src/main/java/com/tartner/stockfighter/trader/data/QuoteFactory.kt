@@ -1,6 +1,6 @@
 package com.tartner.stockfighter.trader.data
 
-import com.google.inject.Inject
+import javax.inject.Inject
 import com.tartner.stockfighter.trader.apis.main.trader.QuoteTO
 
 class QuoteFactory @Inject constructor(private val moneyFactory: MoneyFactory) {
@@ -8,11 +8,11 @@ class QuoteFactory @Inject constructor(private val moneyFactory: MoneyFactory) {
         return Quote(
             Stock(apiQuote.symbol),
             Venue(apiQuote.venue),
-            moneyFactory.from(apiQuote.bidMaximumPriceBuyersWillingToPay),
+            moneyFactory.apiToMoney(apiQuote.bidMaximumPriceBuyersWillingToPay),
             apiQuote.aggregateSizeOfAllOrdersAtBidPrice, apiQuote.aggregateSizeOfAllBidsAtAnyPrice,
-            moneyFactory.from(apiQuote.askMinimumPriceSellersWillingToReceive),
+            moneyFactory.apiToMoney(apiQuote.askMinimumPriceSellersWillingToReceive),
             apiQuote.aggregateSizeOfAllOrdersAtAskPrice, apiQuote.aggregateSizeOfAllAsksAtAnyPrice,
-            moneyFactory.from(apiQuote.priceOfLastTrade), apiQuote.quantityOfLastTrade,
+            moneyFactory.apiToMoney(apiQuote.priceOfLastTrade), apiQuote.quantityOfLastTrade,
             apiQuote.lastTradeTimestamp, apiQuote.quoteTimestamp);
     }
 }

@@ -10,16 +10,24 @@ import java.math.BigDecimal
 
 class MoneyFactoryTest {
     @Test
-    fun fromApiMoney_SimpleNumber_ReturnsCorrectAmount() {
+    fun apiToMoney_SimpleNumber_ReturnsCorrectAmount() {
         val factory = MoneyFactory();
-        val money = factory.from(1234);
+        val money = factory.apiToMoney(1234);
         assertThat(money, equalTo(Money.of(CurrencyUnit.USD, BigDecimal("12.34"))))
     }
 
     @Test
-    fun fromApiMoney_LargeNumber_ReturnsCorrectAmount() {
+    fun apiToMoney_LargeNumber_ReturnsCorrectAmount() {
         val factory = MoneyFactory();
-        val money = factory.from(1234567890);
+        val money = factory.apiToMoney(1234567890)
         assertThat(money, equalTo(Money.of(CurrencyUnit.USD, BigDecimal("12345678.90"))))
+    }
+
+    @Test
+    fun moneyToAPI_SimpleNumber_ReturnsCorrectAmount() {
+        val factory = MoneyFactory();
+        val money = factory.apiToMoney(1234567890);
+        val apiMoney = factory.moneyToAPI(money)
+        assertThat(apiMoney, equalTo("1234567890"))
     }
 }

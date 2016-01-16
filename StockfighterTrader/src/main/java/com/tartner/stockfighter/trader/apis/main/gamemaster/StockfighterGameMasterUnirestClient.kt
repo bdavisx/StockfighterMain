@@ -1,16 +1,17 @@
 package com.tartner.stockfighter.trader.apis.main.gamemaster
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.google.inject.Inject
 import com.mashape.unirest.request.HttpRequest
+import javax.inject.Inject
+import javax.inject.Named
 
 /** This is an implementation using the Unirest library. */
 class StockfighterGameMasterUnirestClient @Inject constructor(
     objectMapper: ObjectMapper,
-    baseURL: String,
-    apiKey: String,
+    @Named("gameMasterURI") baseURI: String,
+    @Named("apiKey") apiKey: String,
     errorChecker: UnirestClientErrorChecker)
-    : UnirestClient(objectMapper, baseURL, apiKey, errorChecker), StockfighterGameMasterClient {
+    : UnirestClient(objectMapper, baseURI, apiKey, errorChecker), StockfighterGameMasterClient {
 
     override fun startLevel(levelName: String): LevelStartTO {
         return createLevelStartTOReturn( "/levels/{LevelName}",
