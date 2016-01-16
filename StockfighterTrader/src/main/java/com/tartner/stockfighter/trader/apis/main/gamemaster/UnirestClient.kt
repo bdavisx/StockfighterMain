@@ -29,6 +29,8 @@ abstract class UnirestClient(
         val request: HttpRequestWithBody = createPost(methodURL)
         init(request)
         request.body(payload)
+        if(log.isDebugEnabled) log.debug("Body of request: ${request.body}")
+
         val body: String? = request.asString().body
         body?.let {
             if( log.isDebugEnabled ) { log.debug("Post return: '$it'") }
