@@ -15,7 +15,7 @@ fun main(arguments: Array<String> ) {
     me.solve()
 }
 
-/** This is kind of like a connection (eg database connection), except c onnecting to stockfighter */
+/** This is kind of like a connection (eg database connection), except connecting to stockfighter */
 class Level1Solver @Inject constructor(
     private val traderClient: StockfighterTraderClient,
     private val gameMasterClient: StockfighterGameMasterClient,
@@ -34,6 +34,14 @@ class Level1Solver @Inject constructor(
 
         val order = Order(account, venue, stock, askPrice, 1, OrderType.Limit)
         traderClient.buy(order)
+
+        // The next step is to monitor the feed (need to be doing it before the order placed anyway),
+        // then complete level only after purchase comes thru...
+        // possibly check order status if that's an api call???
+
+        // then tackle level 2
+
+        // then put an UI around it or go for level 3
 
         gameMasterClient.endLevel(startData.instanceId)
     }

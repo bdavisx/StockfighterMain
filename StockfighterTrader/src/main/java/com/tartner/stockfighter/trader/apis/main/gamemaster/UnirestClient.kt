@@ -22,7 +22,12 @@ abstract class UnirestClient(
         fun checkResponseForError(responseAsText: String): Unit
     }
 
-    // TODO: abstract the duplicate code out of these
+    /*
+        // TODO: abstract the duplicate code out of these
+        TODO: actually, this whole class pretty much sucks and it would probably be easier/better to use something else
+        than this POS!!! Not talking about Unirest, talking about my implementation here - I'll end up redoing
+        everything to be just like Jersey at this rate.
+     */
     protected fun <TPayload, TResponse> post(methodURL: String, payload: TPayload,
         init: (request: HttpRequest) -> Unit, responseHandler: (responseAsText: String) -> TResponse)
         : TResponse {

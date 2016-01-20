@@ -43,7 +43,7 @@ class StockfighterTraderUnirestClient @Inject constructor(
                 it.routeParam("StockSymbol", orderTO.stock)
             },
             fun(responseAsText: String): Unit {
-                log.debug(responseAsText)
+                log.debug("buy response: $responseAsText")
             })!!
     }
 }
